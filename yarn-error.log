@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add express
+
+PATH: 
+  /opt/miniconda/bin:/home/pilrymage/.emacs.d/bin:/home/pilrymage/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-sdk/platform-tools:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/home/pilrymage/.dotnet/tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/pilrymage/.fzf/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.7.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /data/Pilrymage/automate/package.json: Expected double-quoted property name in JSON at position 136
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "automate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

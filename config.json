@@ -1,0 +1,35 @@
+{
+    "audio": "pipewire",
+    "bootloader": "grub-install",
+    "custom-commands": [
+    ],
+    "!encryption-password": "#Oyzh030725",
+    "!root-password": "#Oyzh030725",
+    "filesystem": "ext4",
+    "gfx_driver": "VMware / VirtualBox (open-source)",
+    "harddrive": {
+        "path": "/dev/sda"
+    },
+    "hostname": "pilrymage",
+    "kernels": [
+        "linux"
+    ],
+    "keyboard-language": "us",
+    "mirror-region": "China",
+    "nic": {
+        "NetworkManager": true
+    },
+    "ntp": true,
+    "packages": ["docker", "git", "wget", "fish","neovim"],
+    "profile": "xfce",
+    "services": ["docker","dhcpcd"],
+    "superusers": {
+        "pilrymage": {
+            "!password": "Oyzh030725"
+        }
+    },
+    "sys-encoding": "utf-8",
+    "sys-language": "en_US",
+    "timezone": "Asia/Shanghai",
+    "users": {}
+}
